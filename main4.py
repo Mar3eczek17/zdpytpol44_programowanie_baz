@@ -27,7 +27,7 @@ print(type(invoice))
 print(dir(invoice))
 
 # Wyświetlmy kolumny
-columns = invoice.columns # -> ImmutableColumnCollection
+columns = invoice.columns  # -> ImmutableColumnCollection
 print(columns)
 print(type(columns))
 print(dir(columns))
